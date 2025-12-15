@@ -1,170 +1,104 @@
-# EL MÓDEM
+# MÓDEM - Periférico de Entrada y Salida
+
+Tarea de Fundamentos Hardware | 15 Dec 2025
 
 ---
 
-## 🔌 ¿Qué es un Módem? (Modulador-Demodulador)
+## 1. Definición del Periférico
 
-> 💡 **En simple**: Es el dispositivo que te conecta a internet. Tu wifi o red funcionan gracias a esto.
+Un módem (Modulador-Demodulador) es un dispositivo que permite conectar una computadora a internet. Convierte los datos digitales que genera tu PC en señales que pueden viajar por cables o redes inalámbricas, y hace lo contrario cuando recibe datos.
 
-Un **módem** es un periférico de entrada y salida que permite la comunicación de datos entre computadoras a través de líneas telefónicas, fibra óptica o conexiones inalámbricas. 
+**Función:** Traducir entre datos digitales (1 y 0) y señales analógicas para transmitir información.
+
+```
+PC ↔ MÓDEM ↔ INTERNET
+```
 ![Modem](/img/Modem.png)
+---
 
-### ⚡ Las 2 funciones clave
+## 2. Características Principales
 
-```
-🔵 MODULACIÓN (Salida)
-   Tu PC → [1010101010] → Señal analógica → Internet
-
-🔵 DEMODULACIÓN (Entrada)  
-   Internet → Señal analógica → [1010101010] → Tu PC
-```
-
-### 🎮 Tipos de Módems (Más rapido = Mejor)
-
-#### 📞 Módem Telefónico (Dial-up) - *Vintage*
-```
-⏱️  Velocidad: 56 kbps  |  💀 OBSOLETO
-Sonido de conexión: *beep boop beep* 🎵
-Tiempo para descargar 1MB: ~3 minutos
-```
-
-#### 📻 Módem ADSL - *De antes*
-```
-⬇️ Descarga: hasta 24 Mbps  |  ⬆️ Carga: 1-3 Mbps
-Por: Línea telefónica
-✅ Podías usar internet y teléfono al mismo tiempo
-```
-
-#### 📺 Módem por Cable - *Común*
-```
-⬇️ Descarga: 50-500 Mbps
-Por: Red de cable coaxial
-🎬 Perfecto para streaming en HD
-```
-
-#### 🌟 Módem Fibra Óptica (ONT) - *Premium*
-```
-⚡ Velocidad: 100 Mbps a 1 Gbps
-Por: Fibra óptica (la mejor tecnología)
-🚀 La más rápida y estable
-```
-
-#### 📱 Módem Móvil - *En tu bolsillo*
-```
-🌐 Tecnologías: 3G → 4G (LTE) → 5G
-📡 Inalámbrico (sin cables)
-🎮 En todos los smartphones y tablets
-```
+| Característica | Descripción |
+|----------------|-------------|
+| Velocidad | Desde 56 kbps hasta 1 Gbps o más |
+| Conexión | Telefónica, coaxial, fibra óptica o inalámbrica |
+| Entrada/Salida | Recibe y envía datos simultáneamente |
+| Puertos | RJ-11, RJ-45, USB |
+| Función | Modular y demodular señales |
 
 ---
 
-## ⚙️ Lo técnico (si te interesa)
+## 3. Tipos de Módems
 
-| 🔧 Aspecto | 📝 Descripción |
-|-----------|---------------|
-| **Velocidad** | 🏃‍♂️ Medida en bps, kbps o Mbps (cuanto más grande, mejor) |
-| **Modulación** | 📶 FSK, PSK, QAM (formas de convertir datos) |
-| **Puertos** | 🔌 RJ-11 (teléfono), RJ-45 (Ethernet), USB |
-| **Estándar** | 📋 V.92, V.90, ADSL2+ (reglas de comunicación) |
-| **Formato** | 📦 Externo (con cables) o Interno (dentro del PC) |
+**Módem Telefónico (Dial-up)**
+- Velocidad: 56 kbps
+- Uso: Internet en los 90s
+- Hoy: Completamente obsoleto
 
----
+**Módem ADSL**
+- Velocidad: 24 Mbps descarga / 1-3 Mbps carga
+- Uso: Internet por línea telefónica
+- Permitía usar internet y teléfono al mismo tiempo
 
-### 🧠 Dentro del módem (Componentes)
+**Módem por Cable**
+- Velocidad: 50-500 Mbps
+- Uso: A través de la red de cable coaxial
+- Común en ciudades
 
-| 🔧 Componente | 📝 Función |
-|---------------|-----------|
-| **🎯 Procesador Dedicado** | Hace la magia de modulación |
-| **💾 Memoria RAM** | Guarda datos temporales |
-| **🔐 Circuitos Codificación** | Transforma señales |
-| **🔌 Puertos de Conexión** | Tu wifi, ethernet, usb |
-| **⚡ Fuente de Alimentación** | Le da energía |
+**Módem Fibra Óptica**
+- Velocidad: 100 Mbps a 1 Gbps
+- Uso: Conexión por fibra óptica
+- La más rápida y estable actualmente
 
----
-
----
-
-## 🎯 ¿Para qué sirve hoy en día?
-
-| 📌 Uso | 💡 Ejemplo |
-|-------|-----------|
-| **🏠 Internet en casa** | Netflix, gaming, redes sociales |
-| **📞 Telecomunicaciones** | Videoconferencias, llamadas VoIP |
-| **🤖 Sistemas de control** | Domótica, alarmas inteligentes |
-| **🔗 M2M** | Máquinas hablando entre sí |
-| **🌐 IoT** | Relojes inteligentes, smart home |
+**Módem Móvil (Celular)**
+- Velocidad: 3G → 4G → 5G (cada vez más rápido)
+- Uso: En smartphones, tablets, relojes inteligentes
+- Conexión inalámbrica
 
 ---
 
-## ✅ Lo BUENO vs ❌ Lo MALO
+## 4. Ejemplos Comerciales
 
-### ✅ VENTAJAS
-```
-✓ 🌐 Te conecta a internet (obvio)
-✓ ♻️  Reutiliza infraestructura existente
-✓ 💰 Relación precio-calidad buena
-✓ 🔗 Compatible con casi cualquier dispositivo
-```
+Algunos módems que existen en el mercado:
 
-### ❌ DESVENTAJAS
-```
-✗ 🐢 Conexiones antiguas muy lentas
-✗ 📉 Depende de la calidad de la línea (a veces falla)
-✗ ⚙️  Necesita configuración inicial
-✗ 📊 La velocidad varía mucho
-```  
+- **TP-Link Archer**: Router WiFi popular para casa
+- **Módem ADSL Telefónica**: Fue el estándar en España
+- **Motorola SB**: Módem por cable usado por muchos proveedores
+- **ONT de Movistar/Orange**: Para conexiones de fibra óptica
+- **Router 5G Huawei**: Para redes móviles 5G
+
+En la práctica, el módem está dentro de:
+- Tu router WiFi en casa
+- Tu celular
+- Tu smart TV
+- Cualquier dispositivo conectado a internet
 
 ---
 
-## 📈 La Evolución (Timeline)
+## 5. Conclusiones
 
-```
-1977 ─ 📞 Módem Hayes
-       ⏱️  300 bps (SUPER LENTO)
+**Por qué es importante:**
+- Sin módems no tendríamos internet como existe hoy
+- Ha evolucionado mucho: de 56 kbps en los 90s a 1 Gbps en 2025
+- Es un periférico de entrada y salida porque recibe datos de internet y envía datos de tu PC
+- Está en casi todos los dispositivos digitales modernos
 
-1990s ─ 📞 Módem Dial-up
-       ⏱️  56 kbps + sonidito famoso 🎵
+**El futuro:**
+- Las velocidades seguirán aumentando con 5G
+- Internet por satélite llegará a zonas sin cobertura
+- Habrá más dispositivos conectados (IoT)
 
-2000s ─ 📻 ADSL
-       ⏱️  10 Mbps (Ya mejor)
-
-2010s ─ 📱 4G/LTE
-       ⏱️  100 Mbps (Streaming de películas YA)
-
-2020+ ─ 🚀 5G / Fibra óptica
-       ⏱️  1 Gbps+ (ULTRA RÁPIDO)
-```
-
-**La tendencia**: Cada vez más RÁPIDO y más ESTABLE ⚡
+**Lo esencial:**
+El módem es el puente entre tu computadora e internet. Sin él, no podríamos conectarnos. Es un dispositivo que ha cambiado constantemente y sigue mejorando cada año.
 
 ---
 
-## 🎓 Importante para tu tarea
+## Referencias
 
-### ¿Periférico de E/S? ✅ SÍ
-
-```
-┌──────────────────────────────────────┐
-│         ENTRADA (E/S)                │
-│  Internet ─→ Datos ─→ Tu Computadora │
-└──────────────────────────────────────┘
-         ⬆️ ⬇️ ⬆️ ⬇️
-┌──────────────────────────────────────┐
-│         SALIDA (E/S)                 │
-│  Tu Computadora ─→ Datos ─→ Internet │
-└──────────────────────────────────────┘
-```
-
-**Conclusión**: El módem es **bidireccional** (entrada Y salida) 🔀
+- IEEE Standards (802.3, 802.11)
+- ITU-T Modem Recommendations (V.92, ADSL2+)
+- 3GPP Mobile Standards (4G, 5G)
+- DOCSIS Cable Modem Standard
+- Documentación de proveedores de internet
 
 ---
-
-### 🔮 El Futuro
-La tecnología de módems sigue evolucionando:
-- 🌌 Redes 5G (velocidades BRUTALES)
-- 🛰️ Satélite internet (conexión desde cualquier lugar)
-- ⚡ LoRaWAN (para dispositivos IoT eficientes)
-
----
-
-**⏰ Última actualización**: 15 Dic 2025 | **📚 Tema**: Periféricos de Hardware
