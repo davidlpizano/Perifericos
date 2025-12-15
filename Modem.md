@@ -7,6 +7,7 @@
 > 💡 **En simple**: Es el dispositivo que te conecta a internet. Tu wifi o red funcionan gracias a esto.
 
 Un **módem** es un periférico de entrada y salida que permite la comunicación de datos entre computadoras a través de líneas telefónicas, fibra óptica o conexiones inalámbricas. 
+![Modem](/img/Modem.png)
 
 ### ⚡ Las 2 funciones clave
 
