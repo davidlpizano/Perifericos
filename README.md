@@ -15,7 +15,7 @@ El contenido está diseñado para ser accesible y fácil de entender para estudi
 ## 📁 Contenido del Proyecto
 
 ### 📄 Archivo Principal
-- **`perifericos.md`** - Documento completo sobre módems y periféricos de E/S
+- **`Modem.md`** - Documento completo sobre módems y periféricos de E/S
 
 ---
 
@@ -158,7 +158,7 @@ Para profundizar más:
 
 ## 📞 Contenido Principal
 
-👉 **[Ver el documento completo sobre Módems →](./perifericos.md)**
+👉 **[Ver el documento completo sobre Módems →](./Modem.md)**
 
 ---
 
