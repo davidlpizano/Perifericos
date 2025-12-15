@@ -90,15 +90,3 @@ En la práctica, el módem está dentro de:
 
 **Lo esencial:**
 El módem es el puente entre tu computadora e internet. Sin él, no podríamos conectarnos. Es un dispositivo que ha cambiado constantemente y sigue mejorando cada año.
-
----
-
-## Referencias
-
-- IEEE Standards (802.3, 802.11)
-- ITU-T Modem Recommendations (V.92, ADSL2+)
-- 3GPP Mobile Standards (4G, 5G)
-- DOCSIS Cable Modem Standard
-- Documentación de proveedores de internet
-
----
