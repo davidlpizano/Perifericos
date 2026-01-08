@@ -3,7 +3,7 @@
 **Asignatura:** Fundamentos de Hardware  
 
 **Tema:** El Módem como Periférico de Entrada/Salida (E/S)
-
+![modem](img/modem.png)
 ---
 
 ## 📖 1. Descripción del Proyecto
