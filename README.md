@@ -1,166 +1,71 @@
 # 📚 Proyecto: Periféricos de Hardware
 
-**Tarea de Fundamentos Hardware | 15 de Diciembre de 2025**
-
----
-
-## 📖 Descripción
-
-Este proyecto es una guía visual y completa sobre **periféricos de entrada y salida (E/S)** en sistemas informáticos, con énfasis especial en los **módems**.
-
-El contenido está diseñado para ser accesible y fácil de entender para estudiantes de todas las edades, combinando conceptos técnicos con ejemplos prácticos y visuales.
-
----
-
-## 📁 Contenido del Proyecto
-
-### 📄 Archivo Principal
-- **`Modem.md`** - Documento completo sobre módems y periféricos de E/S
-
----
-
-## 🔗 Índice de Contenidos
-
-### 📡 Tema Principal: EL MÓDEM
-
-1. **[¿Qué es un Módem?](#qué-es-un-módem-modulador-demodulador)**
-   - Definición y función principal
-   - Las 2 funciones clave: Modulación y Demodulación
-
-2. **[Tipos de Módems](#tipos-de-módems-mas-rapido--mejor)**
-   - 📞 Módem Telefónico (Dial-up) - Vintage
-   - 📻 Módem ADSL - De antes
-   - 📺 Módem por Cable - Común
-   - 🌟 Módem Fibra Óptica (ONT) - Premium
-   - 📱 Módem Móvil - En tu bolsillo
-
-3. **[Especificaciones Técnicas](#⚙️-lo-técnico-si-te-interesa)**
-   - Tabla de características técnicas
-   - Componentes internos del módem
-
-4. **[Aplicaciones Actuales](#🎯-para-qué-sirve-hoy-en-día)**
-   - Internet residencial
-   - Telecomunicaciones
-   - Sistemas de control
-   - M2M y IoT
-
-5. **[Análisis de Ventajas y Desventajas](#✅-lo-bueno-vs-❌-lo-malo)**
-   - Ventajas principales
-   - Limitaciones y desventajas
-
-6. **[Evolución Histórica](#📈-la-evolución-timeline)**
-   - Timeline de 1977 a 2025
-   - Progresión de velocidades y tecnologías
-
-7. **[Clasificación como Periférico E/S](#🎓-importante-para-tu-tarea)**
-   - Explicación visual de entrada y salida
-   - Conclusión sobre bidireccionalidad
-
-8. **[El Futuro](#🔮-el-futuro)**
-   - Tecnologías emergentes
-   - Tendencias próximas
-
----
-
-## 🎯 Objetivos de Aprendizaje
-
-Al completar este proyecto, deberías entender:
-
-✅ Qué es un módem y cómo funciona  
-✅ Las diferencias entre tipos de módems  
-✅ Por qué un módem es un periférico de E/S  
-✅ La evolución tecnológica de las comunicaciones  
-✅ Las aplicaciones modernas de módems  
-✅ Ventajas y limitaciones de cada tecnología  
-
----
-
-## 🎨 Características del Documento
-
-- 📱 **Diseño visual** pensado para gente joven
-- 🎮 **Emojis y formato atractivo** para facilitar la lectura
-- 📊 **Tablas comparativas** para entender diferencias
-- 🔍 **Explicaciones sencillas** sin perder precisión técnica
-- 📈 **Timelines visuales** para contextualizar cambios
-- 💡 **Ejemplos prácticos** del día a día
-
----
-
-## 📚 Recursos Incluidos
-
-| Sección | Tipo | Contenido |
-|---------|------|----------|
-| Definición | 📖 Texto | Explicación clara y concisa |
-| Tipos | 📦 Cajas informativas | 5 categorías diferentes |
-| Técnica | 📊 Tabla | Características principales |
-| Componentes | 📋 Tabla | Partes internas |
-| Aplicaciones | 📌 Tabla | Usos modernos |
-| Ventajas/Desventajas | ✓✗ Lista | Análisis DAFO |
-| Evolución | 📈 Timeline | Progreso histórico |
-| Clasificación E/S | 🎓 Diagrama | Explicación visual |
-
----
-
-## 🚀 Cómo Usar Este Proyecto
-
-### Opción 1: Lectura Completa
-1. Abre el archivo `perifericos.md`
-2. Lee desde el inicio hasta el final para una comprensión completa
-
-### Opción 2: Consulta Rápida
-Usa el índice anterior para saltar directamente a la sección que necesites
-
-### Opción 3: Presentación
-El formato visual del documento lo hace ideal para presentar ante una clase o grupo
-
----
-
-## 📝 Estructura Académica
-
 **Asignatura:** Fundamentos de Hardware  
-**Tema:** Periféricos de Entrada y Salida  
-**Periférico Estudiado:** Módem (Modulador-Demodulador)  
-**Fecha:** 15 de Diciembre de 2025  
-**Nivel:** Educativo / Accesible para todos  
+
+**Tema:** El Módem como Periférico de Entrada/Salida (E/S)
 
 ---
 
-## 💡 Información Clave
-
-### El Módem en 10 segundos
-> Un módem es un dispositivo que convierte datos digitales en señales que pueden viajar por cables (como internet) y viceversa. **Es lo que te permite navegar en internet.** Funciona como un **traductor bidireccional** entre tu computadora y el mundo digital.
-
-### ¿Por qué es importante?
-- 🌍 Sin módems no habría internet tal como lo conocemos
-- 📱 Están en todos lados (routers, celulares, etc.)
-- ⚡ La tecnología evoluciona constantemente
-- 🔗 Son periféricos de E/S fundamentales
+## 📖 1. Descripción del Proyecto
+Este documento ofrece una guía técnica y visual sobre el funcionamiento del **módem**, analizando su papel crítico en la conectividad moderna y su clasificación dentro de los sistemas informáticos.
 
 ---
 
-## 📖 Referencias Recomendadas
+## 📡 2. ¿Qué es un Módem? (Modulador-Demodulador)
+El módem es un dispositivo de hardware que actúa como un puente entre los datos digitales de una computadora y las señales analógicas de las líneas de transmisión físicas.
 
-Para profundizar más:
-- Estudiar los estándares V.92 y ADSL2+
-- Investigar sobre modulación digital (FSK, PSK, QAM)
-- Explorar la tecnología de fibra óptica
-- Conocer el desarrollo de redes 5G
-
----
-
-## 👨‍💼 Autor
-
-**Proyecto de Estudios | Fundamentos Hardware**  
-**Institución:** Educativa  
-**Periodo:** 15 de Diciembre de 2025
+### ⚙️ Procesos Fundamentales
+1. **Modulación:** Proceso de convertir señales digitales (binarias) en ondas analógicas para su envío.
+2. **Demodulación:** Proceso de transformar las ondas analógicas recibidas de nuevo en datos digitales legibles por el equipo.
 
 ---
 
-## 📞 Contenido Principal
+## 📁 3. Tipos de Tecnologías y Conectividad
 
-👉 **[Ver el documento completo sobre Módems →](./Modem.md)**
+| Tecnología | Nombre Común | Medio de Transmisión | Estado |
+| :--- | :--- | :--- | :--- |
+| **Dial-up** | Telefónico | Par de cobre (Voz) | Obsoleto |
+| **ADSL** | Banda Ancha | Par de cobre (Datos) | En desuso |
+| **Cable (HFC)** | Módem Cable | Cable Coaxial | Común |
+| **Fibra (ONT)** | Fibra Óptica | Pulsos de luz | Estándar actual |
+| **Móvil** | 4G / 5G | Ondas de Radio | Ubicuo |
 
 ---
 
-**Última actualización:** 15 de Diciembre de 2025  
-**Estado:** ✅ Completado y revisado
+## 🎓 4. Clasificación como Periférico de E/S
+En arquitectura de computadores, el módem se clasifica como un **periférico de Entrada/Salida (mixto)** debido a su naturaleza bidireccional:
+
+* **Entrada:** Recibe datos desde una red externa hacia el sistema local (Descarga/Download).
+* **Salida:** Envía datos desde el sistema local hacia la red externa (Carga/Upload).
+
+---
+
+## 📈 5. Evolución Histórica (1977 - 2026)
+* **Años 80/90:** Módems de 56k con conexión por llamada telefónica.
+* **Años 2000:** Introducción del ADSL; internet siempre activo sin bloquear la línea de voz.
+* **Años 2010:** Transición masiva a la fibra óptica y el auge del Wi-Fi integrado.
+* **Actualidad (2025-2026):** Predominio de redes 5G de baja latencia y fibra de 10 Gbps.
+
+---
+
+## 🎯 6. Aplicaciones Modernas
+Hoy en día, el módem no solo sirve para navegar por la web, sino que es el corazón de:
+* 🏠 **Domótica:** Control de hogares inteligentes.
+* 🏭 **M2M e IoT:** Comunicación autónoma entre sensores y máquinas industriales.
+* 🛰️ **Sistemas Satelitales:** Conectividad en zonas remotas de alta velocidad.
+
+---
+
+## ✅ Ventajas vs. ❌ Desventajas
+
+### Ventajas
+* Permite la comunicación global y el acceso remoto a la información.
+* Versatilidad para adaptarse a distintos medios físicos (luz, radio, electricidad).
+* Escalabilidad en velocidad y rendimiento.
+
+### Desventajas
+* Dependencia de la infraestructura del proveedor de servicios (ISP).
+* Posibles cuellos de botella según la saturación de la red.
+* Vulnerabilidad a ciberataques si el firmware no está actualizado.
+
+---
